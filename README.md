@@ -13,5 +13,5 @@ We set the AMI that will update and launch configuration of the cluster: data.tf
 
 We can see that the load balancer is open to the world on tcp/80 and tcp/443 and the ECS EC2 instances have ports 32768 to 65535 open from the load balancer. This is because when we select the container port to 0 in the task definition AWS will randomly assign a port from this range to the container: security.tf
 
-
+We have our variables file where I am using CentOS 7 AMI : vars.tf
 
