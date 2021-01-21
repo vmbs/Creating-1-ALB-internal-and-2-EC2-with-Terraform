@@ -15,3 +15,4 @@ We can see that the load balancer is open to the world on tcp/80 and tcp/443 and
 
 We have our variables file where I am using CentOS 7 AMI : vars.tf
 
+We add  terraform.tfvars  for access and secret key.
