@@ -9,4 +9,6 @@ We creates a new VPC with no GateWay: vpc.tf
 
 We have the configuration for the Application Load Balancer: alb.tf
 
+We set the AMI that will update and launch configuration of the cluster: data.tf
+
 
