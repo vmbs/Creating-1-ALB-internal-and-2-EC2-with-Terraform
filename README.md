@@ -7,6 +7,6 @@ This is the backend states from terraform where is going to S3 Bucket: backend.t
 
 We creates a new VPC with no GateWay: vpc.tf
 
-
+We have the configuration for the Application Load Balancer: alb.tf
 
 
